@@ -1,81 +1,178 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Yeimy Leonard Hancco Ccorahua</title>
+
+  
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #1A1A1A;
+            color: #E5E5E5;
+            margin: 0;
+            padding: 0;
+        }
+
+      
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: auto;
+            padding-top: 40px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #00A8E8;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.3rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            font-size: 1.8rem;
+        }
+
+        p,
+        li {
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        a {
+            color: #00A8E8;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #36c7ff;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #00A8E8;
+            margin: 40px 0;
+            opacity: 0.5;
+        }
+
+      
+        .perfil {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .perfil img {
+            border-radius: 12px;
+            width: 220px;
+            border: 2px solid #00A8E8;
+            box-shadow: 0 0 20px #00a7e84d;
+        }
+
+        .perfil p {
+            max-width: 500px;
+        }
+
+        .list {
+            width: 70%;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        
+        footer {
+            text-align: center;
+            margin: 40px 0 20px 0;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+
 </head>
+
 <body>
 
-    <div align="center">
+    <div class="container">
+
         <h1>Yeimy Leonard Hancco Ccorahua</h1>
-        <h2>Estudiante de Ciencias de la Computación</h2>
+        <h3>Estudiante de Ciencias de la Computación</h3>
         <h3>Universidad Católica San Pablo - Arequipa</h3>
+
+        <hr>
+
+        <h2>Sobre mí</h2>
+
+        <div class="perfil">
+            <img src="yeimy.jpg" alt="Foto de Yeimy Ccorahua">
+            <p>
+                Hola, soy <strong>Yeimy Hancco</strong>, estudiante de Ciencias de la Computación 
+                en la Universidad Católica San Pablo. Me apasiona la tecnología, la programación y la 
+                inteligencia artificial. Disfruto resolver problemas, asumir retos académicos y busco 
+                crecer en el área de desarrollo de software.
+            </p>
+        </div>
+
+        <hr>
+
+        <h2>Mis Intereses</h2>
+        <ul class="list">
+            <li>Desarrollo de software</li>
+            <li>Inteligencia Artificial</li>
+            <li>Ciencia de Datos</li>
+            <li>Diseño de Videojuegos</li>
+        </ul>
+
+        <h2>Proyectos Personales</h2>
+        <ol class="list">
+            <li>Juego simple en Pygame</li>
+            <li>Página web personal</li>
+            <li>Bot básico en Python</li>
+        </ol>
+
+        <hr>
+
+        <h2>Enlaces de Interés</h2>
+        <ul class="list">
+            <li><a href="https://github.com/leonarlh24-commits" target="_blank">Mi Perfil de GitHub</a></li>
+            <li><a href="https://ucsp.edu.pe/" target="_blank">Página de la UCSP</a></li>
+        </ul>
+
+        <h2>Páginas de Compañeros</h2>
+        <ul class="list">
+            <li><a href="https://derekloayza.github.io" target="_blank">Derek Loayza</a></li>
+            <li><a href="https://nickolasjackmatiuabarcabedregal.github.io" target="_blank">Nickolas Abarca</a></li>
+            <li><a href="https://rodrigomolinap.github.io/RodrigoMolinaPortocarrero-web/" target="_blank">Rodrigo Molina</a></li>
+        </ul>
+
+        <hr>
+
+        <h2>Contacto</h2>
+        <p class="list">
+             Correo: <a href="mailto:leonar.lh24@gmail.com">leonar.lh24@gmail.com</a><br>
+             Ciudad: Arequipa, Perú
+        </p>
+
+        <footer>
+            <strong>© 2025 Yeimy Hancco – Universidad Católica San Pablo</strong>
+        </footer>
+
     </div>
 
-    <hr>
-
-    <h2>Sobre mí</h2>
-
-    <table>
-        <tr>
-            <td>
-                <img src="yeimy.jpg" alt="Foto de Yeimy Ccorahua" width="200">
-            </td>
-            <td>
-                <p>
-                    Hola, soy <strong>Yeimy Hancco</strong>, estudiante de 
-                    Ciencias de la Computación en la 
-                    Universidad Católica San Pablo 
-                     y me apasiona aprender sobre 
-                    tecnología, programación e inteligencia artificial 
-                    Disfruto los retos académicos y me interesa seguir creciendo en el área de desarrollo de software.
-                </p>
-            </td>
-        </tr>
-    </table>
-
-    <h2>Mis Intereses</h2>
-    <ul>
-        <li>Desarrollo de software</li>
-        <li>Inteligencia Artificial</li>
-        <li>Ciencia de datos</li>
-        <li>Diseño de videojuegos</li>
-    </ul>
-
-    <h2>Proyectos Personales</h2>
-    <ol>
-        <li>Juego simple en Pygame</li>
-        <li>Página web personal</li>
-        <li>Bot básico en Python</li>
-    </ol>
-
-    <hr>
-
-    <h2>Enlaces de Interés</h2>
-    <ul>
-        <li><a href="https://github.com/leonarlh24-commits" target="_blank">Mi Perfil de GitHub</a></li>
-        <li><a href="https://ucsp.edu.pe/" target="_blank">Página de la UCSP</a></li>
-    </ul>
-
-    <h2>Páginas de Compañeros</h2>
-    <ul>
-        <li><a href="https://derekloayza.github.io" target="_blank">Derek Loayza</a></li>
-        <li><a href="https://nickolasjackmatiuabarcabedregal.github.io" target="_blank">Nickolas Abarca</a></li>
-        <li><a href="https://rodrigomolinap.github.io/RodrigoMolinaPortocarrero-web/" target="_blank">Rodrigo Molina</a></li>
-    </ul>
-
-    <hr>
-
-    <h2>Contacto</h2>
-    <p>
-         Correo: <a href="mailto:leonar.lh24@gmail.com">leonar.lh24@gmail</a><br>
-         Ciudad: Arequipa, Perú
-    </p>
-
-    <hr>
-    <p align="center"><strong>© 2025 Yeimy Hancco- Universidad Católica San Pablo</strong></p>
-
 </body>
+
 </html>
 
 
